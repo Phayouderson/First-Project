@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top {
+    background-color: rgb(4, 168, 168);
+    height: 130px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: solid 4px black;
+}
+.nul {
+    width: 930px;
+    margin: 0px auto;
+}
+.line1{
+    display: flex;
+    justify-content: space-around;
+}
+.shelter {
+    display: flex;
+    align-items: center;
+}
+.shelter img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.shelter h1 {
+    color: white;
+    font-size: 40px;
+    font-weight:lighter;
+}
+ul{
+    width: 250px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    list-style:none;
+    font-size: large;
+}
+ ul button {
+    width: 80px;
+    background-color: white;
+    color: rebeccapurple;
+    border: solid 1px rebeccapurple;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 4px 4px 1px black;
+}
+.line2 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.line2 img {
+    width: 15px;
+    height: ;
+}
+.line2 p {
+    color: rgb(204, 248, 248);
+}
+select {
+    width: 150px;
+    padding: 5px;
+    background-color:rgb(204, 248, 248);
+    border: solid 2px black;
+}
+input {
+    padding: 5px;
+    background-color:rgb(204, 248, 248);
+    border: solid 2px black;
+}
+.line2 button {
+    padding: 5px;
+    background-color:rebeccapurple;
+    color:white;
+    border: solid 2px black;
+    box-shadow: 4px 4px 1px black;
+}
+.main1 {
+    width: 730px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(233, 232, 232);
+    border-radius: 20px;
+}
+.main1 img {
+    width: 130px;
+}
+.pstrong {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.pepper {
+    width: 200px;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: rgb(25, 165, 165);
+    color: white;
+    box-shadow:4px 4px 1px black ;
+}
+.last p{
+    text-align: end;
+}
